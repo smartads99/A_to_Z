@@ -1,0 +1,177 @@
+.cssbackground{
+    color: aqua;
+    background-color:greenyellow;
+    background-image: url(https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* css border */
+    border: #9715f3;
+    border-style: solid;
+    border-radius: 25px;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+    border-style:solid;
+    border-width: 10px;
+}
+.buttonwithcss{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3fe3ce;
+    font-size: larger;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #9715f3;
+    /* css margin for button */
+    margin: 10px;
+    margin-left: 20px;
+}
+.cssbackground p{
+    max-width: 50%;
+    margin: 20px;
+}
+
+.csswidthandheight{
+    margin-top: 250px;
+    margin-bottom: 250px;
+    background-color: aquamarine;
+    padding: 30px;
+    /* width: 650px; */
+    width: auto;
+    max-width: 650px;
+    /* css outline */
+    border: 2px solid black;
+    outline: 5px solid #88ff00;
+    outline-style: double;
+}
+
+.csstextformat{
+    background-color: aquamarine;
+    padding: 30px;
+    border: 4px solid brown;
+    border-radius: 5px;
+    outline-style: dashed;
+}
+.csstextformat h1{
+    text-align: center;
+    text-shadow: 3px 2px rgb(255, 255, 255);
+    color: #2723ff;
+    font-weight: solid;
+    font-style: italic;
+}
+.csstextformat p{
+    text-transform: capitalize;
+    text-indent: 35px;
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 1.5;
+}
+
+.csslinks{
+    background-color: #88ff00;
+    padding: 50px;
+    border:  5px solid #9715f3;
+}
+.csslinks h1{
+    text-align: center;
+    text-shadow: 3px 2px rgb(255, 245, 245);
+    color: rgb(115, 0, 255);
+    font-size: 45px;
+}
+.csslinks a {
+    color: rgb(255, 0, 64);
+    text-decoration: none;
+}
+.csslinks a:hover{
+    color: #9715f3;
+    font-weight: bold;
+}
+.csslinks a:active{
+    color: #ffffff;
+}
+
+.facebook{
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #2723ff;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: double;
+}
+.youtube{
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:red;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    font-family: serif;
+    border-style: double;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.Me{
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ff00cc;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    border-style: double;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.facebook:hover{
+    color: #88ff00;
+    text-decoration: underline;
+}
+
+.csslist{
+    background-color: #3fe3ce;
+    padding: 15px;
+}
+.csslist ol{
+    background-color: #9715f3;
+    padding: 15px;
+    padding-left:30px;
+    color:#ffffff;    
+}
+.csslist li{
+    list-style-image: url(img/newok.gif);
+    list-style-position: inside;
+    border-image: round;
+    font-size: 30px;
+    
+}
+
+.csstables table,th,td{
+    border: 3px solid rgb(255, 255, 255);
+    border-collapse: collapse;
+    width: 100%;
+    margin: 2px solid;
+    text-align: center;
+    padding: 15px;
+}
+.csstables{
+    background-color: #2723ff;
+    color: #ffffff;
+    padding: 25px;
+}
+th{
+    font-size: 25px;
+    background-color: #9715f3;
+}
+tr{
+    background-color: #cf8bff;
+    font-size: larger;
+}
+tr:hover{
+    background-color: #ff00cc;
+}

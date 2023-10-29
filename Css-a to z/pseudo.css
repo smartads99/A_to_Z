@@ -1,0 +1,32 @@
+*{
+    background-color: rgb(70, 10, 125);
+    color: #fff;
+}
+img{
+    float: left;
+}
+.pseudo{
+    float: left;    
+    width: 60%;
+    line-height: 1.5;
+}
+
+.pseudo >p{
+    color: red;
+}
+
+.pseudo >p::first-letter{
+    color: white;
+    font-size: 50px;
+}
+.pseudo >h1::after{
+    content: " :) or HI....";
+}
+.pseudo>h1::before{
+    content: "Welcome back ";
+}
+
+::selection{
+    background-color: rgb(243, 243, 243);
+    color: red;
+}

@@ -1,0 +1,23 @@
+.opacity-para{
+    background: blueviolet;
+    float: left;
+}
+.opacity-para>img{
+    float: left;
+}
+
+.fixclear{
+    clear: both;
+}
+
+.img-opacity {
+    background: black;
+    width: 950px;
+
+}
+.img-opacity >img{
+    width: 950px;
+}
+.img-opacity >img:hover{
+    opacity: 0.5;
+}

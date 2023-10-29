@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(70, 10, 125);
+    color: #fff;
+}
+
+img{
+    float: left;
+}
+.toppara{
+    float: left;    
+    width: 60%;
+    line-height: 1.5;
+}
+.clearfix{
+    clear: both;
+}
+.exetext{
+    line-height: 1.5;
+}
+
+/* div p{
+    Descendant selector (space)
+    color: red;
+}  */
+
+/* .exetext > h1{
+    Child selector ( > )
+    color: green;
+} */
+/* .exetext + h1{
+    Adjacent Sibling selector ( + )
+    color: red;
+} */
+/* 
+.exetext ~ h1{
+    General Sibling Selector ( ~ )
+    color: yellow;
+} */

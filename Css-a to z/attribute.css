@@ -1,0 +1,49 @@
+.opacity-para {
+  background: blueviolet;
+  float: left;
+  line-height: 1.5;
+  padding: 30px;
+}
+.opacity-para > img {
+  float: left;
+}
+
+.fixclear {
+  clear: both;
+}
+
+    /* CSS [attribute] Selector
+    span{
+        color: red;
+    } */
+/* span[title]{
+    background: burlywood;
+} */
+/* span a[target="_blank"]{
+    background: brown;
+} */
+
+/* span[title~="Country"]{
+    background: red;
+}
+
+span[title~="India"]{
+    background: blue;
+}
+span[title~="Srilanka"]{
+    background: greenyellow;
+}
+
+[class|="content"]{
+    color: aqua;
+} */
+
+/* [class^="content"]{
+    for start
+    color: orange;
+} */
+/* 
+[class*="-"]{
+    for all the contain (-)
+    background-color: black;
+} */

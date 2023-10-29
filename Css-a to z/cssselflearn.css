@@ -1,0 +1,62 @@
+h1{
+    font-family:'Black Ops One';
+    font-size: 50px;
+}
+p{
+    font-family:'Caveat';
+    font-size:40px ;
+}
+
+*{
+    /* *for all */
+    /* background-color: aqua; */
+}
+
+.cssclass{
+    /* class css */
+    background:blueviolet;
+}
+
+.cssclass h1{
+    /* class css with parent */
+    color:white;
+}
+.cssclass > p{
+    /* class css with parent */
+    font-size: 50px;
+}
+
+.text-s{
+    background-color: brown;
+}
+
+#idselectors{
+    font-size: xx-large;
+    color: #9715f3;
+}
+
+.cssbackground{
+    color: aqua;
+    background-color:greenyellow;
+    background-image: url(https://t4.ftcdn.net/jpg/02/18/89/83/360_F_218898398_wnLuoR9GY4qhLB2tc7o3tSJbQCRfq0xc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* css border */
+    border: #9715f3;
+    border-style: solid;
+    border-radius: 25px;
+    /* border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+    border-style:solid;
+    border-width: 10px;
+}
+.buttonwithcss{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3fe3ce;
+    font-size: larger;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #9715f3;
+}

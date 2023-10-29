@@ -1,0 +1,54 @@
+.float{
+    background: #6dc366;
+}
+
+.float > img{
+    float: left;
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.floatwithboth{
+    padding: 15px;
+}
+
+.v{
+    background: #9400D3;
+    width: 100px;
+    float: left;
+}
+.i{
+    background: #4B0082;
+    width: 100px;
+    float: left;
+}
+.b{
+    background: #0000FF;
+    width: 100px;
+    float: left;
+}
+.g{
+    background: #00FF00;
+    width: 100px;
+    float: right;
+}
+.y{
+    background: #FFFF00;
+    width: 100px;
+    float: right;
+}
+.o{
+    background: #FF7F00;
+    width: 100px;
+    float: right;
+}
+
+.pd-5{
+    padding: 15px;
+    width: 100px;
+}
+
+.para{
+    clear: both;
+    background: brown;
+}

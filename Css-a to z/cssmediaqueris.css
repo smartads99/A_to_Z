@@ -1,0 +1,29 @@
+.text-c{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+body{
+    background: lemonchiffon;
+}
+
+@media screen and (max-width:900px){
+    /* css code */
+    body{
+        background: red;
+    }
+} 
+
+@media screen and (max-width:500px) {
+    /* css code */
+
+    body{
+        background: lightgreen;
+    }
+    li{
+        padding:20px 0;
+        font-size: xx-large;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+    }
+}

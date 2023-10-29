@@ -1,0 +1,28 @@
+input[type="text"]{
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button[type="submit"]{
+    font-weight: bold ;
+    width: 100%;
+    background:rgb(39, 215, 39);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover{
+    background: rgb(7, 152, 7);
+}
+
+label{
+    margin: 0 10px;
+}

@@ -1,0 +1,19 @@
+*{
+    background: lightsalmon;
+}
+.p-100p{
+    padding: 10px 0px;
+    margin-left: 20px;
+}
+
+body{
+    counter-reset: video;
+}
+
+h2::before{
+    counter-increment: video;
+    content:"Video # " counter(video) " : ";
+}
+h2{
+    text-transform: capitalize;
+}
