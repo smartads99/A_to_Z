@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <style>
+    body{
+      text-align: center;
+    }
+    h1{
+      font-size:60px;
+      padding-top: 80px;
+    }
+    button{
+      padding:15px;
+      font-weight: bold;
+      font-size: medium;
+      font-family:'sans-serif';
+      color: #fff;
+      background: blueviolet;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+   #result{
+    font-size: 55px;
+    font-weight: bold;
+    font-family: 'sans-serif';
+
+   }
+
+    </style>
+  </head>
+<body>
+  <h1>Sorting the number using JavaScript</h1>
+
+  <button onclick="getArraySize()">Enter Array Size</button>
+
+  <p id="result"></p>
+
+  <script>
+    function getArraySize() {
+      const size = prompt('Enter how many number to be sorted:');
+      
+      if (size === null || size === '') {
+        alert('Invalid size. Please enter a valid number.');
+        return;
+      }
+
+      const numbersArray = [];
+
+      for (let i = 0; i < size; i++) {
+        const num = prompt('Enter number ' + (i + 1) + ':');
+        
+        if (num === null || num === '') {
+          alert('Invalid input. Please enter valid numbers.');
+          return;
+        }
+
+        numbersArray.push(Number(num));
+      }
+
+      numbersArray.sort((a, b) => a - b);
+
+      document.getElementById('result').innerHTML = 'Sorted Numbers:' + numbersArray.join(', ');
+    }
+  </script>
+
+</body>
+</html>

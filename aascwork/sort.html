@@ -1,0 +1,40 @@
+<html>
+<head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Sorting the number using JavaScript</h2>
+  
+  <label for="numbers">Enter numbers (comma separated): </label>
+  <input type="text" id="numbers">
+  <button onclick="sortNumbers()">Sort</button>
+
+  <p id="result"></p>
+
+  <script>
+    function sortNumbers() {
+      // Get input value and convert it to an array of numbers
+      const input = document.getElementById('numbers').value;
+      const numbersArray = input.split(',').map(Number);
+
+      // Check if the input contains valid numbers
+      if (numbersArray.some(isNaN)) {
+        alert('Please enter valid numbers.');
+        return;
+      }
+      numbersArray.sort(function(a, b) {
+        return a - b;
+      });
+      document.getElementById('result').innerHTML = 'Sorted Numbers: ' + numbersArray.join(', ');
+    }
+  </script>
+
+</body>
+</html>
